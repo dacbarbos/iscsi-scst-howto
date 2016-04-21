@@ -1,2 +1,2 @@
-# scst-howto
-Fork of scst.sf.net/iscsi-scst-howto.txt
+# iscsi-scst-howto
+Fork of iscsi-scst-howto.txt
