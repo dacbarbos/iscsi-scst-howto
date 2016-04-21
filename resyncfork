@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+echo Resync in progress...
+pushd /tmp || exit
+git clone https://github.com/dacbarbos/iscsi-scst-howto.git
+cd iscsi-scst-howto || exit
+rm -f iscsi-scst-howto.txt
+curl -kL# -o iscsi-scst-howto.txt https://sourceforge.net/p/scst/svn/HEAD/tree/trunk/iscsi-scst/doc/iscsi-scst-howto.txt?format=raw
+git commit -a -m "Resync" && git push
+cd .. || exit
+rm -rf iscsi-scst-howto
+popd && echo Done.
