@@ -1,2 +1,2 @@
 # iscsi-scst-howto
-Fork of iscsi-scst-howto.txt
+A fork of iscsi-scst-howto.txt from upstream project http://scst.sourceforge.net/
